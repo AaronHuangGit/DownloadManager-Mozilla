@@ -107,6 +107,5 @@ public class DownloadProviderActivity extends Activity implements
                 Environment.DIRECTORY_DOWNLOADS, "/");
         request.setDescription("Just for test");
         mDownloadManager.enqueue(request);
-
     }
 }
