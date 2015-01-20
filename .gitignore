@@ -1,0 +1,11 @@
+###过滤掉out目录和bin目录
+.idea/
+bin/
+out/
+gen/
+
+
+
+####过滤掉apk文件
+*.apk
+*.iml
